@@ -240,9 +240,10 @@
 .about__text {
 	display: flex;
 	flex-direction: column;
-	gap: 25px;
+	gap: 24px;
 	font-size: 20px;
 	line-height: 24px;
+	/* letter-spacing: 0.1px; */
 }
 
 .about__text p:first-child {
