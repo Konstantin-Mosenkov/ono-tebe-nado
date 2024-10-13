@@ -13,6 +13,7 @@
 .header__links-list-item {
 	font-size: 18px;
 	line-height: 21.1px;
+	font-style: normal;
 	list-style: circle;
 }
 
@@ -38,6 +39,7 @@
 	max-width: 240px;
 	font-size: 18px;
 	line-height: 24.3px;
+	font-style: normal;
 }
 
 .address a {
@@ -116,6 +118,7 @@
 .bet-button {
 	padding: 12px 32px;
 	color: #fff;
+	font-family: Raleway, 'Arial', sans-serif;
 	font-size: 22px;
 	line-height: 25.8px;
 	text-transform: uppercase;
@@ -257,6 +260,7 @@
 
 .footer__address {
 	justify-self: start;
+	font-style: normal;
 }
 
 .footer__menu {
@@ -268,6 +272,7 @@
 	list-style: none;
 	font-size: 18px;
 	line-height: 21.1px;
+	font-style: normal;
 	text-align: center;
 }
 
