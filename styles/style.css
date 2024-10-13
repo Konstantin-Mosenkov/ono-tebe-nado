@@ -55,6 +55,7 @@
 	background-image: url('/images/cover.jpg');
 	background-size: cover;
 	background-position: center;
+	background-color: #000;
 }
 
 .overlay {
@@ -164,6 +165,7 @@
 	background-position: center;
 	background-size: cover;
 	padding: 49px 40px 48px 40px;
+	background-color: #000;
 }
 
 .card_type_film {
@@ -260,8 +262,8 @@
 }
 
 .footer__menu {
-	display: block;
-	width: 149px;
+	justify-self: center;
+	min-width: 149px;
 }
 
 .footer__menu-list {
