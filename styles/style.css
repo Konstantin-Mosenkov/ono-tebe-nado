@@ -52,7 +52,7 @@
 .cover {
 	position: relative;
 	padding: 165px 50px 51px 50px;
-	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/images/cover.jpg');
+	background-image: url('/images/cover.jpg');
 	background-size: cover;
 	background-position: center;
 }
@@ -167,15 +167,15 @@
 }
 
 .card_type_film {
-	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/images/card-lot-01.jpg);
+	background-image: url(/images/card-lot-01.jpg);
 }
 
 .card_type_book {
-	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/images/card-lot-02.jpg);
+	background-image: url(/images/card-lot-02.jpg);
 }
 
 .card_type_picture {
-	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/images/card-lot-03.jpg);
+	background-image: url(/images/card-lot-03.jpg);
 }
 
 .card__title {
@@ -260,6 +260,7 @@
 }
 
 .footer__menu {
+	display: block;
 	width: 149px;
 }
 
