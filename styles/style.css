@@ -51,11 +51,10 @@
 
 .cover {
 	position: relative;
-	padding: 165px 50px 50px;
+	padding: 165px 50px 51px 50px;
 	background-image: url('/images/cover.jpg');
 	background-size: cover;
 	background-position: center;
-	height: 757px;
 }
 
 .overlay {
@@ -72,6 +71,7 @@
 	line-height: 115px;
 	letter-spacing: 30px;
 	color: #fff;
+	text-transform: uppercase;
 }
 
 .letter-spacing-extended {
@@ -163,7 +163,7 @@
 	color: #fff;
 	background-position: center;
 	background-size: cover;
-	padding: 51px 40px 48px 40px;
+	padding: 49px 40px 48px 40px;
 }
 
 .card_type_film {
@@ -243,7 +243,6 @@
 	gap: 24px;
 	font-size: 20px;
 	line-height: 24px;
-	/* letter-spacing: 0.1px; */
 }
 
 .about__text p:first-child {
@@ -256,7 +255,7 @@
 	grid-template-columns: 1fr min-content 1fr;
 }
 
-.footer address {
+.footer__address {
 	justify-self: start;
 }
 
